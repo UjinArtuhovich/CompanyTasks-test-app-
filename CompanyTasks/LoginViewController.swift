@@ -54,7 +54,7 @@ class LoginViewController: UIViewController{
         return bttn
     }()
     override func viewDidLoad() {
-        //        
+
         //                let appDelegat = UIApplication.shared.delegate as! AppDelegate
         //                let context = appDelegat.persistentContainer.viewContext
         //                let fetchRequest: NSFetchRequest<User> = User.fetchRequest()
