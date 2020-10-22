@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		934A54752541EB6C00EB804F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934A54742541EB6C00EB804F /* AppDelegate.swift */; };
 		934A54772541EB6C00EB804F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934A54762541EB6C00EB804F /* SceneDelegate.swift */; };
-		934A54792541EB6C00EB804F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934A54782541EB6C00EB804F /* ViewController.swift */; };
 		934A547C2541EB6C00EB804F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 934A547A2541EB6C00EB804F /* Main.storyboard */; };
 		934A547F2541EB6C00EB804F /* CompanyTasks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 934A547D2541EB6C00EB804F /* CompanyTasks.xcdatamodeld */; };
 		934A54812541EB6D00EB804F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 934A54802541EB6D00EB804F /* Assets.xcassets */; };
 		934A54842541EB6D00EB804F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 934A54822541EB6D00EB804F /* LaunchScreen.storyboard */; };
 		934A548F2541EB6E00EB804F /* CompanyTasksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934A548E2541EB6E00EB804F /* CompanyTasksTests.swift */; };
 		934A549A2541EB6E00EB804F /* CompanyTasksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934A54992541EB6E00EB804F /* CompanyTasksUITests.swift */; };
+		934A54AE2541ECDB00EB804F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934A54AD2541ECDB00EB804F /* LoginViewController.swift */; };
+		934A54B32541ECEE00EB804F /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934A54B22541ECEE00EB804F /* RegisterViewController.swift */; };
+		934A54B82541ED0700EB804F /* NameForDirectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934A54B72541ED0700EB804F /* NameForDirectorViewController.swift */; };
+		934A54BD2541ED2200EB804F /* PageOfEmployeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934A54BC2541ED2200EB804F /* PageOfEmployeeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +42,6 @@
 		934A54712541EB6C00EB804F /* CompanyTasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CompanyTasks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		934A54742541EB6C00EB804F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		934A54762541EB6C00EB804F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		934A54782541EB6C00EB804F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		934A547B2541EB6C00EB804F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		934A547E2541EB6C00EB804F /* CompanyTasks.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CompanyTasks.xcdatamodel; sourceTree = "<group>"; };
 		934A54802541EB6D00EB804F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +53,10 @@
 		934A54952541EB6E00EB804F /* CompanyTasksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CompanyTasksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		934A54992541EB6E00EB804F /* CompanyTasksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyTasksUITests.swift; sourceTree = "<group>"; };
 		934A549B2541EB6E00EB804F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		934A54AD2541ECDB00EB804F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		934A54B22541ECEE00EB804F /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		934A54B72541ED0700EB804F /* NameForDirectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameForDirectorViewController.swift; sourceTree = "<group>"; };
+		934A54BC2541ED2200EB804F /* PageOfEmployeeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageOfEmployeeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +109,10 @@
 			children = (
 				934A54742541EB6C00EB804F /* AppDelegate.swift */,
 				934A54762541EB6C00EB804F /* SceneDelegate.swift */,
-				934A54782541EB6C00EB804F /* ViewController.swift */,
+				934A54AD2541ECDB00EB804F /* LoginViewController.swift */,
+				934A54B22541ECEE00EB804F /* RegisterViewController.swift */,
+				934A54B72541ED0700EB804F /* NameForDirectorViewController.swift */,
+				934A54BC2541ED2200EB804F /* PageOfEmployeeViewController.swift */,
 				934A547A2541EB6C00EB804F /* Main.storyboard */,
 				934A54802541EB6D00EB804F /* Assets.xcassets */,
 				934A54822541EB6D00EB804F /* LaunchScreen.storyboard */,
@@ -261,8 +270,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				934A54792541EB6C00EB804F /* ViewController.swift in Sources */,
+				934A54BD2541ED2200EB804F /* PageOfEmployeeViewController.swift in Sources */,
+				934A54AE2541ECDB00EB804F /* LoginViewController.swift in Sources */,
+				934A54B32541ECEE00EB804F /* RegisterViewController.swift in Sources */,
 				934A54752541EB6C00EB804F /* AppDelegate.swift in Sources */,
+				934A54B82541ED0700EB804F /* NameForDirectorViewController.swift in Sources */,
 				934A547F2541EB6C00EB804F /* CompanyTasks.xcdatamodeld in Sources */,
 				934A54772541EB6C00EB804F /* SceneDelegate.swift in Sources */,
 			);
